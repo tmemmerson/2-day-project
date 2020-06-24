@@ -23,11 +23,16 @@ let GameManager = {
     getInterface.innerHTML = '<img src="../img/' + classType.toLowerCase() + '2.jpg" alt = ' + classType + ' player hero class= img-hero><div><h3>' + classType + "</h3><p>Health: "+ player.health + "</p><p>Mana: "+ player.mana + "</p><p>Strength: " + player.strength + "</p><p>Agility: " + player.agility + "</p><p>Speed: " + player.speed + "</p></div>";
   },
   setPreFight: function(classType) {
-    let getHeader = document.querySelector("header");
-    let getActions = document.querySelector("actions");
-    let getArena = document.querySelector("arena");
+    let getHeader = document.querySelector(".header");
+    let getActions = document.querySelector(".actions");
+    let getArena = document.querySelector(".arena");
     getHeader.innerHTML = '<p>Task: Choose your destiny!</p>';
     getActions.innerHTML = '<a href="#" class="btn-prefight" onclick="GameManager.setFight()">Search for enemy</a>';
     getArena.style.visibility = "visible";
+  },
+  setFight: function() {
+    let getHeader = document.querySelector(".header");
+    let getActions = document.querySelector(".actions");
+    let getEnemy = document.querySelector(".enemy");
   }
 };
