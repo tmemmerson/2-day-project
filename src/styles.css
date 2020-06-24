@@ -13,3 +13,7 @@ img {
   background-size: 35vh;
   visibility: hidden;
 }
+
+.btn-prefight {
+  width: 100% !important;
+}
