@@ -4,7 +4,7 @@ let GameManager = {
     this.setPreFight();
   },
   resetPlayer: function(classType) {
-    switch (expression) {
+    switch (classType) {
       case "Warrior":
         player = new Player(classType, 150, 0, 200, 100, 50);
         break;
@@ -18,10 +18,11 @@ let GameManager = {
         player = new Player(classType, 125, 100, 100, 75, 100);
         break;
     }
+
     let getInterface = document.querySelector(".interface");
-    getInterface.innerHTML = '<img src="../img/' + classType.toLowerCase() + "2.jpg alt = " + classType + " player hero class= img-hero><div><h3>" + classType + "</h3><p>Health: "+ player.health + "</p><p>Mana: "+ player.mana + "</p><p>Strength: " + player.strength + "</p><p>Agility: " + player.agility + "</p><p>Speed: " + player.speed + "</p>";
+    getInterface.innerHTML = '<img src="../img/' + classType.toLowerCase() + '2.jpg" alt = ' + classType + ' player hero class= img-hero><div><h3>' + classType + "</h3><p>Health: "+ player.health + "</p><p>Mana: "+ player.mana + "</p><p>Strength: " + player.strength + "</p><p>Agility: " + player.agility + "</p><p>Speed: " + player.speed + "</p></div>";
   },
   setPreFight: function(classType) {
 
   }
-}
+};
