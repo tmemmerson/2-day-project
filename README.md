@@ -11,7 +11,14 @@
 
 ## **Specifications**
 
-**EDIT** $IMPORT TABLE HERE$
+| Spec 	| Input 	| Output 	|
+|-	|-	|-	|
+| create hero character profiles for selection 	| n/a 	| mage/rogue/warrior 	|
+| create enemy character profiles for selection 	| n/a 	| necromancer/goblin 	|
+| create stat profiles for characters 	| n/a 	| health 20/power 20/intelligence 10/speed 5 	|
+| match hero to enemy 	| find opponent 	| random enemy output (necromancer or goblin) 	|
+| create attack action 	| attack 	| you did 20 damage to opponent 	|
+| use loop to ping-pong attacks between hero/enemy 	| attack 	| you did 20 damage to opponent / you took 15 damage from opponent 	|
 
 ## **Setup/Installation Requirements**
 
