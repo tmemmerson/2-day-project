@@ -34,5 +34,7 @@ let GameManager = {
     let getHeader = document.querySelector(".header");
     let getActions = document.querySelector(".actions");
     let getEnemy = document.querySelector(".enemy");
+    let enemy00 = new Enemy("Rogue", 100,100,100,100,100);
+    let enemy01 = new Enemy("Goblin", 75,125,75,125,100);
   }
 };
