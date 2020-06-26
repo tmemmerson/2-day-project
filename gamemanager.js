@@ -9,10 +9,10 @@ let GameManager = {
         player = new Player(classType, 200, 0, 200, 100, 50);
         break;
       case "Jade":
-        player = new Player(classType, 100, 0, 100, 150, 200);
+        player = new Player(classType, 200, 0, 100, 150, 200);
         break;
       case "Jax":
-        player = new Player(classType, 80, 0, 50, 200, 50);
+        player = new Player(classType, 200, 0, 50, 200, 50);
         break;
       case "Kabal":
         player = new Player(classType, 200, 0, 50, 200, 100);
@@ -21,10 +21,10 @@ let GameManager = {
         player = new Player(classType, 200, 0, 200, 100, 50);
         break;
       case "Kitana":
-        player = new Player(classType, 100, 0, 100, 150, 200);
+        player = new Player(classType, 200, 0, 100, 150, 200);
         break;
       case "KungLao":
-        player = new Player(classType, 80, 0, 50, 200, 50);
+        player = new Player(classType, 200, 0, 50, 200, 50);
         break;
       case "LiuKang":
         player = new Player(classType, 200, 0, 50, 200, 100);
@@ -33,10 +33,10 @@ let GameManager = {
         player = new Player(classType, 200, 0, 200, 100, 50);
         break;
       case "Scorpion":
-        player = new Player(classType, 100, 0, 100, 150, 200);
+        player = new Player(classType, 200, 0, 100, 150, 200);
         break;
       case "Sektor":
-        player = new Player(classType, 80, 0, 50, 200, 50);
+        player = new Player(classType, 200, 0, 50, 200, 50);
         break;
       case "Sheeva":
         player = new Player(classType, 200, 0, 50, 200, 100);
@@ -45,10 +45,10 @@ let GameManager = {
         player = new Player(classType, 200, 0, 200, 100, 50);
         break;
       case "Smoke":
-        player = new Player(classType, 100, 0, 100, 150, 200);
+        player = new Player(classType, 200, 0, 100, 150, 200);
         break;
       case "Sonya":
-        player = new Player(classType, 80, 0, 50, 200, 50);
+        player = new Player(classType, 200, 0, 50, 200, 50);
         break;
       case "SubZero":
         player = new Player(classType, 200, 0, 50, 200, 100);
@@ -69,21 +69,21 @@ let GameManager = {
     let getHeader = document.querySelector(".header");
     let getActions = document.querySelector(".actions");
     let getEnemy = document.querySelector(".enemy");
-    let enemy00 = new Enemy("Cyrax", 100, 0, 50, 100, 100);
+    let enemy00 = new Enemy("Cyrax", 200, 0, 50, 100, 100);
     let enemy01 = new Enemy("Jade", 200, 0, 150, 80, 150);
-    let enemy02 = new Enemy("Jax", 100, 0, 50, 100, 100);
+    let enemy02 = new Enemy("Jax", 200, 0, 50, 100, 100);
     let enemy03 = new Enemy("Kabal", 200, 0, 150, 80, 150);
-    let enemy04 = new Enemy("Kano", 100, 0, 50, 100, 100);
+    let enemy04 = new Enemy("Kano", 200, 0, 50, 100, 100);
     let enemy05 = new Enemy("Kitana", 200, 0, 150, 80, 150);
-    let enemy06 = new Enemy("KungLao", 100, 0, 50, 100, 100);
+    let enemy06 = new Enemy("KungLao", 200, 0, 50, 100, 100);
     let enemy07 = new Enemy("LiuKang", 200, 0, 150, 80, 150);
-    let enemy08 = new Enemy("Nightwolf", 100, 0, 50, 100, 100);
+    let enemy08 = new Enemy("Nightwolf", 200, 0, 50, 100, 100);
     let enemy09 = new Enemy("Scorpion", 200, 0, 150, 80, 150);
-    let enemy10 = new Enemy("Sektor", 100, 0, 50, 100, 100);
+    let enemy10 = new Enemy("Sektor", 200, 0, 50, 100, 100);
     let enemy11 = new Enemy("Sheeva", 200, 0, 150, 80, 150);
-    let enemy12 = new Enemy("Sindel", 100, 0, 50, 100, 100);
+    let enemy12 = new Enemy("Sindel", 200, 0, 50, 100, 100);
     let enemy13 = new Enemy("Smoke", 200, 0, 150, 80, 150);
-    let enemy14 = new Enemy("Sonya", 100, 0, 50, 100, 100);
+    let enemy14 = new Enemy("Sonya", 200, 0, 50, 100, 100);
     let enemy15 = new Enemy("SubZero", 200, 0, 150, 80, 150);
     let chooseRandomEnemy = Math.floor(Math.random() * Math.floor(16));
     switch (chooseRandomEnemy) {
