@@ -57,7 +57,7 @@ let PlayerMoves = {
         player.health = player.health - totalDamage;
         alert("Enemy hit " + enemyAttackValues[0] + " damage " + enemyAttackValues[1] + " times.");
         if (player.health <= 0) {
-          alert("You loose! Refresh browser to play again.");
+          alert("You lose! Refresh browser to play again.");
           getPlayerHealth.innerHTML = 'Health: 0';
           getEnemyHealth.innerHTML = 'Health: ' + enemy.health;
         } else {
@@ -70,7 +70,7 @@ let PlayerMoves = {
       player.health = player.health - totalDamage;
       alert("Enemy hit " + enemyAttackValues[0] + " damage " + enemyAttackValues[1] + " times.");
       if (player.health <= 0) {
-        alert("You loose! Refresh browser to play again.");
+        alert("You lose! Refresh browser to play again.");
         getEnemyHealth.innerHTML = 'Health: ' + enemy.health;
         getPlayerHealth.innerHTML = 'Health: 0';
       } else {
